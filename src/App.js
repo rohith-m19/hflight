@@ -6,7 +6,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Main from './components/mainbody/Main';
 
 const App = () => {
-
+console.log('test for codebounty')
   const flight = useSelector((state) => state.flights);
  console.log("App: "+JSON.stringify(flight));
   return (
